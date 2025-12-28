@@ -14,7 +14,7 @@ and re-training it on CIFAR-10 dataset (multiclass classification)
 - Optimizer: NAdam
 - Metric: Accuracy
 - Loss Fn: CrossEntropyLoss
-- Did Regular Cross Validation,including learning rate scheduler,warm up scheduler and early call back function. Used Optuna for hyperparameter tuning of learning rate
+- Did Regular Cross Validation,including learning rate scheduler,warm up scheduler and early call back function. Used Optuna (with pruning) for hyperparameter tuning of learning rate 
 
 3. Results
 - 90% Accuracy on test set
