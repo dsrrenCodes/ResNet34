@@ -1,0 +1,23 @@
+
+# ResNet-34 
+
+Re-implemented ResNet-34 from scratch with PyTorch
+and re-training it on CIFAR-10 dataset (multiclass classification)
+ 
+## Workflow
+
+1. Data preprocessing
+- Applied RandomRotation, RandomHorizontalFlip to data
+- Applied StratifiedShuffleSplit for train/valid/test sets
+
+2. Training
+- Optimizer: NAdam
+- Metric: Accuracy
+- Loss Fn: CrossEntropyLoss
+- Did Regular Cross Validation,including learning rate scheduler,warm up scheduler and early call back function. Used Optuna for hyperparameter tuning of learning rate
+
+3. Results
+- 90% Accuracy on test set
+
+
+
