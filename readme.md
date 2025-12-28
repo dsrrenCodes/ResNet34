@@ -19,5 +19,7 @@ and re-training it on CIFAR-10 dataset (multiclass classification)
 3. Results
 - 90% Accuracy on test set
 
+- <img width="829" height="328" alt="image" src="https://github.com/user-attachments/assets/95047cfc-61bb-4058-a66e-1f95fdf8cabd" />
+
 
 
